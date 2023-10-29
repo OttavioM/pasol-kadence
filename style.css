@@ -24,7 +24,7 @@
 
 /* hide the post when is posted */
 .entry-meta > * time{
-	display: none;
+	display: none!important;
 }
 /* Hide the author and the time posted */
 /* .entry-meta{
