@@ -1,8 +1,15 @@
 <?php
-add_action('wp_enqueue_scripts', 'add_child_theme_style');
 function add_child_theme_style() {
-wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
+add_action('wp_enqueue_scripts', 'add_child_theme_style');
+
+function child_enqueue_styles() {
+	wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/style.css', array(), 100 );
+}
+
+add_action( 'wp_enqueue_scripts', 'child_enqueue_styles' ); // Remove the // from the beginning of this line if you want the child theme style.css file to load on the front end of your site.
+
 // your code goes right below this
 
 function ecolocal_scripts() {
