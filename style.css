@@ -21,6 +21,16 @@
 .posted-on{
 	display: none!important;
 }
+
+/* hide the post when is posted */
+.entry-meta > * time{
+	display: none;
+}
+/* Hide the author and the time posted */
+/* .entry-meta{
+	display: none;
+} */
+
 /* STYLING FOR WOOCOMMERCE CART PAGE */
 
 /** empty cart**/
