@@ -225,5 +225,20 @@ function my_custom_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_custom_scripts' );
 
+
+function create_links() {
+    $args = func_get_args(); // Get all the arguments passed to the function
+    $links = ''; // Initialize the list of links with an empty string
+
+    // Loop through the arguments in pairs (item name and hyperlink)
+    for ($i = 0; $i < count($args); $i += 2) {
+        $name = $args[$i];
+        $link = $args[$i + 1];
+        $links .= "<a href=\"$link\">$name</a><br>"; // Wrap each item name and hyperlink in an HTML link tag with a line break
+    }
+
+    return $links; // Return the final list of links
+}
+
 // END OF THE PHP
 ?>
