@@ -108,7 +108,7 @@
 .site-footer{
    &__logo{
        img.custom-logo{
-           width: 80%;
+           width: 30%;
            height: auto;
        }
    }
