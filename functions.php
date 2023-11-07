@@ -240,5 +240,15 @@ function create_links() {
     return $links; // Return the final list of links
 }
 
+// shortcode to use inside the wordpress:
+function custom_links_shortcode($atts) {
+    ob_start();
+    $links = create_links($atts); // Call the create_links function with shortcode attributes
+    echo $links;
+    return ob_get_clean();
+}
+add_shortcode('my_custom_links', 'custom_links_shortcode');
+
+
 // END OF THE PHP
 ?>
