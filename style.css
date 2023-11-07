@@ -94,8 +94,14 @@
 }
 
 @media-breakpoint-down(md){
-	.info-site-footer{
+	.site-footer .info-site-footer{
 		display: none!important;
+	}
+}
+
+@media-breakpoint-up(md){
+   .site-footer .info-site-footer{
+		display: block!important;
 	}
 }
 
@@ -106,7 +112,8 @@
            height: auto;
        }
    }
-   .info-site-footer{
+}
+   /* .info-site-footer{
       
        @include media-breakpoint-down(md){
            display: none;
@@ -132,5 +139,5 @@
            // top:41px;
        }
    }
-}
+} */
 
