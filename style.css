@@ -154,4 +154,6 @@
    color: #000000!important;
 }
 
-
+.mobile-navigation ul li.current-menu-item > a, .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap {
+   background-color: #fcd673;
+}
