@@ -151,7 +151,7 @@
 }
 
 .popup-drawer .drawer-inner{
-   background-color: #FBECDC;
+   background-color: #FBECDC!important;
 }
 
 .mobile-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, .mobile-navigation ul li:not(.menu-item-has-children) a{
