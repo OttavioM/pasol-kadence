@@ -162,3 +162,29 @@
 .mobile-navigation ul li.current-menu-item > a, .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap {
    background-color: #fcd673;
 }
+
+/** HIDE THE DASHBOARD OF THE WOOCOMMERCE **/
+.woocommerce-MyAccount-navigation{
+   display: none;
+}
+ /* tranform the content to be 100% width */
+.woocommerce-account .woocommerce-MyAccount-content{
+   width: 100%;
+}
+
+.my-account-pdash{
+   padding-top: 0.6rem;
+   width: 15rem;
+}
+ /* orders */
+.kt-info-box_c153ee-4c .kt-blocks-info-box-link-wrap{
+   height: 3rem;
+}
+ /* edit addresses */
+.kt-info-box_535ed2-44 .kt-blocks-info-box-link-wrap{
+   height: 3rem;
+}
+ /* edit account */
+.kt-info-box_c68c70-19 .kt-blocks-info-box-link-wrap{
+   height: 3rem;
+}
