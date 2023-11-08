@@ -87,7 +87,7 @@
    max-width: 10rem;
 }
 
-.site-footer__logo img.custom-logo {
+.site-footer .site-footer__logo img.custom-logo {
    width: 80%;
    height: auto;
 }
@@ -96,20 +96,33 @@
    display: none;
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 767px) {
    .site-footer .info-site-footer {
        display: block;
    }
 }
 
-.site-footer__mobile {
+.site-footer .site-footer__mobile {
    background-color: #C79FB5;
 }
 
-@media (max-width: 767px) {
-   .site-footer__mobile {
+@media only screen and (min-width: 768px) {
+   .site-footer .site-footer__mobile {
+       display: none;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   .site-footer .site-footer__mobile {
        display: block;
    }
 }
+
+@media only screen and (min-width: 768px) {
+   .site-footer .info-site-footer {
+       display: block;
+   }
+}
+
 
 
