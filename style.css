@@ -150,7 +150,7 @@
    background-color: #FBECDC;
 }
 
-.mobile-navigation ul li > a, .mobile-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap{
+.mobile-navigation ul li > a{
    color: #000000;
 }
 
