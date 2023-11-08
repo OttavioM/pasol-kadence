@@ -88,7 +88,7 @@
 }
 
 .site-footer__logo img.custom-logo {
-   width: 80%;
+   width: 30%;
    height: auto;
 }
 
@@ -109,13 +109,13 @@
 }
 
 @media only screen and (min-width: 768px) {
-   .site-footer .site-footer__mobile {
+   .site-footer__mobile {
        display: none;
    }
 }
 
 @media only screen and (max-width: 767px) {
-   .site-footer .site-footer__mobile {
+   .site-footer__mobile {
        display: block;
    }
 }
