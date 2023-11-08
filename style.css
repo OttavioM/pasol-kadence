@@ -31,6 +31,8 @@
 	display: none;
 } */
 
+@import "./bootstrap/scss/bootstrap";
+
 /* STYLING FOR WOOCOMMERCE CART PAGE */
 
 /** empty cart**/
