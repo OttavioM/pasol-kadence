@@ -127,13 +127,13 @@
 
 /* change bg color to the current element */
 .main-navigation .current-menu-item{
-      background-color: #000000;
+      background-color: #fcd673;
 }
 
    /*change the font color */
    
 .main-navigation a{
-      color: #000000;
+      color: #000000!important;
       padding: 0.6rem 1.4rem;
 } 
 
@@ -143,7 +143,7 @@
 
 .main-navigation .menu-toggle{
       background-color: #FBECDC;
-      color: #000000;
+      color: #c25959;
       border: none;
       border-radius: 20px!important;
 }
@@ -152,12 +152,9 @@
 .main-navigation .toggled ul {
    background-color: #FBECDC;
 }
-.main-navigation .current-menu-item{
-       background-color: #fcd673!important;
-}
 
 .main-navigation a:hover{
-       background-color: #fcd673;
+       background-color: #FBECDC;
 } 
 
 
