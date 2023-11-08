@@ -123,4 +123,44 @@
 }
 
 
+/***MAIN MENU***/
+.main-navigation{
+   font-weight: 600;
+
+   /* change bg color to the current element */
+   .current-menu-item{
+       background-color: var(--bs-pasol-pink);
+   }
+
+   /*change the font color */
+   
+   a{
+       color: var(--bs-black);
+       padding: 0.6rem 1.4rem;
+   } 
+   
+   a:hover{
+       background-color: var(--bs-pasol-pink);
+   } 
+
+   .menu-toggle{
+       background-color: var(--bs-pasol-pink);
+       color: var(--bs-black);
+       border: none;
+       border-radius: 20px!important;
+   }
+}
+
+.main-navigation.toggled ul {
+   background-color: var(--bs-pasol-pink);
+
+   .current-menu-item{
+       background-color: var(--bs-pasol-yellow)!important;
+   }
+
+   a:hover{
+       background-color: var(--bs-pasol-yellow);
+   } 
+}
+
 
