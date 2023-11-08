@@ -150,6 +150,10 @@
    background-color: #FBECDC;
 }
 
+.popup-drawer .drawer-inner{
+   background-color: #FBECDC;
+}
+
 .mobile-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, .mobile-navigation ul li:not(.menu-item-has-children) a{
    color: #000000!important;
 }
