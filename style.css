@@ -124,43 +124,41 @@
 
 
 /***MAIN MENU***/
-.main-navigation{
-   font-weight: 600;
 
-   /* change bg color to the current element */
-   .current-menu-item{
-       background-color: #000000;
-   }
+/* change bg color to the current element */
+.main-navigation .current-menu-item{
+      background-color: #000000;
+}
 
    /*change the font color */
    
-   a{
-       color: #000000;
-       padding: 0.6rem 1.4rem;
-   } 
-   
-   a:hover{
-       background-color: #FBECDC;
-   } 
+.main-navigation a{
+      color: #000000;
+      padding: 0.6rem 1.4rem;
+} 
 
-   .menu-toggle{
-       background-color: #FBECDC;
-       color: #000000;
-       border: none;
-       border-radius: 20px!important;
-   }
+.main-navigation a:hover{
+      background-color: #FBECDC;
+} 
+
+.main-navigation .menu-toggle{
+      background-color: #FBECDC;
+      color: #000000;
+      border: none;
+      border-radius: 20px!important;
 }
 
-.main-navigation.toggled ul {
+
+.main-navigation .toggled ul {
    background-color: #FBECDC;
-
-   .current-menu-item{
-       background-color: #fcd673!important;
-   }
-
-   a:hover{
-       background-color: #fcd673;
-   } 
 }
+.main-navigation .current-menu-item{
+       background-color: #fcd673!important;
+}
+
+.main-navigation a:hover{
+       background-color: #fcd673;
+} 
+
 
 
