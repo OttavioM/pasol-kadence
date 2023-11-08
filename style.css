@@ -129,37 +129,37 @@
 
    /* change bg color to the current element */
    .current-menu-item{
-       background-color: var(--bs-pasol-pink);
+       background-color: #000000;
    }
 
    /*change the font color */
    
    a{
-       color: var(--bs-black);
+       color: #000000;
        padding: 0.6rem 1.4rem;
    } 
    
    a:hover{
-       background-color: var(--bs-pasol-pink);
+       background-color: #FBECDC;
    } 
 
    .menu-toggle{
-       background-color: var(--bs-pasol-pink);
-       color: var(--bs-black);
+       background-color: #FBECDC;
+       color: #000000;
        border: none;
        border-radius: 20px!important;
    }
 }
 
 .main-navigation.toggled ul {
-   background-color: var(--bs-pasol-pink);
+   background-color: #FBECDC;
 
    .current-menu-item{
-       background-color: var(--bs-pasol-yellow)!important;
+       background-color: #fcd673!important;
    }
 
    a:hover{
-       background-color: var(--bs-pasol-yellow);
+       background-color: #fcd673;
    } 
 }
 
