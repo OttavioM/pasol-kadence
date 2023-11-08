@@ -83,39 +83,33 @@
 
 /****FOOTER*****/
 
-#colophon{
-   .container{
-       .col{
-           .img-fluid{
-               max-width: 10rem;
-           }
-       }
+#colophon .container .col .img-fluid {
+   max-width: 10rem;
+}
+
+.site-footer__logo img.custom-logo {
+   width: 80%;
+   height: auto;
+}
+
+.site-footer .info-site-footer {
+   display: none;
+}
+
+@media (min-width: 768px) {
+   .site-footer .info-site-footer {
+       display: block;
    }
 }
 
-.site-footer{
-   &__logo{
-       img.custom-logo{
-           width: 80%;
-           height: auto;
-       }
-   }
-   .info-site-footer{
-      @media screen and (max-width: 800px){
-           display: none;
-           }
-           @media screen and (min-width: 800px){
-               display: block;
-           }
-   }
-   &__mobile{
-       background-color: #C79FB5;
-       @media screen and (max-width: 800px){
-       display: none;
-       }
-       @media screen and (min-width: 800px){
-           display: block;
-       }
+.site-footer__mobile {
+   background-color: #C79FB5;
+}
+
+@media (max-width: 767px) {
+   .site-footer__mobile {
+       display: block;
    }
 }
+
 
