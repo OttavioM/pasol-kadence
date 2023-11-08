@@ -94,13 +94,13 @@
 
 @media only screen and (max-width: 767px) {
    .site-footer .info-site-footer {
-      display: block;
+      display: none;
    }
 }
 
 @media only screen and (min-width: 767px) {
    .site-footer .info-site-footer {
-       display: none;
+       display: block;
    }
 }
 
@@ -110,13 +110,13 @@
 
 @media only screen and (max-width: 768px) {
    .site-footer__mobile {
-       display: none;
+       display: block;
    }
 }
 
 @media only screen and (min-width: 767px) {
    .site-footer__mobile {
-       display: block;
+       display: none;
    }
 }
 
