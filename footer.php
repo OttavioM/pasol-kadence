@@ -14,8 +14,11 @@
 	<footer id="colophon" class="site-footer">
 	<div class="footer-container">
   	 	<div class="footer-row">
+		   <div class="site-footer__logo">
+				<?php the_custom_logo();  ?>
+			</div>
   	 		<div class="footer-col">
-  	 			<h4>company</h4>
+  	 			<h4>Support</h4>
   	 			<?php
 							$support_links = create_links(
 								'Contact Us', 'https://www.example.com/contact',
@@ -26,32 +29,40 @@
 						?>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>get help</h4>
-  	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
-  	 			</ul>
+  	 			<h4>about</h4>
+  	 			<?php
+					$about_links = create_links(
+						'About Us', 'https://www.example.com/contact',
+						'Our Partners', 'https://www.example.com/faqs',
+						'Reef Planting', 'https://www.example.com/docs',
+						'Tree Planting', 'https://www.example.com/docs'
+					);
+					echo $about_links;
+				?>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>online shop</h4>
-  	 			<ul>
-  	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
-  	 			</ul>
+  	 			<h4>legal</h4>
+  	 			<?php
+					$legal_links = create_links(
+						'Terms Of Use', 'aa',
+						'Privacy Policy', 'https://www.example.com/faqs',
+						'Subscrition Policy', 'https://www.example.com/docs',
+						'Accessibility', 'https://www.example.com/docs'
+					);
+					echo $legal_links;
+				?>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>follow us</h4>
-  	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
-  	 			</div>
+  	 			<h4>Keep in Touch</h4>
+  	 			<?php
+					$instagram_link = create_links('<i class="bi bi-instagram"></i>', 'https://www.instagram.com/');
+					$facebook_link = create_links('<i class="bi bi-facebook"></i>', 'https://www.facebook.com/');
+					$tiktok_link = create_links('<i class="bi bi-tiktok"></i>', 'https://www.tiktok.com/');
+					
+					echo $instagram_link;
+					echo $facebook_link;
+					echo $tiktok_link;
+				?>
   	 		</div>
   	 	</div>
   	 </div>

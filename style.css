@@ -90,7 +90,7 @@
 }
 
 .site-footer__logo img.custom-logo {
-   width: 9%;
+   width: 25%;
    height: auto;
 }
 
@@ -106,15 +106,6 @@
 	list-style: none;
 }
 
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
-}
-
-.footer{
-	background-color: #24262b;
-    padding: 70px 0;
-}
 .footer-col{
    width: 25%;
    padding: 0 15px;
@@ -149,6 +140,20 @@
 	color: #bbbbbb;
 	display: block;
 	transition: all 0.3s ease;
+}
+
+.footer-col a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	transition: all 0.3s ease;
+}
+
+.footer-col a:hover{
+	color: #ffffff;
+	padding-left: 8px;
 }
 .footer-col ul li a:hover{
 	color: #ffffff;
