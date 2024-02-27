@@ -14,19 +14,19 @@
 	<footer id="colophon" class="site-footer">
 	<div class="footer-container">
   	 	<div class="footer-row">
-		   <div class="site-footer__logo">
+		   <div class="footer-col site-footer__logo">
 				<?php the_custom_logo();  ?>
 			</div>
   	 		<div class="footer-col">
   	 			<h4>Support</h4>
   	 			<?php
-							$support_links = create_links(
-								'Contact Us', 'https://www.example.com/contact',
-								'FAQs', 'https://www.example.com/faqs',
-								'Shipping & Returns', 'https://www.example.com/docs'
-							);
-							echo $support_links;
-						?>
+					$support_links = create_links(
+						'Contact Us', 'https://www.example.com/contact',
+						'FAQs', 'https://www.example.com/faqs',
+						'Shipping & Returns', 'https://www.example.com/docs'
+					);
+					echo $support_links;
+				?>
   	 		</div>
   	 		<div class="footer-col">
   	 			<h4>about</h4>

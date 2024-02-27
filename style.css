@@ -95,12 +95,12 @@
 }
 
 .footer-container{
-	max-width: 1170px;
+	max-width: 20000px;
 	margin:auto;
 }
 .footer-row{
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 .footer-col ul{
 	list-style: none;
