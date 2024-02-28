@@ -14,6 +14,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles' ); // Remove the // fro
 
 function ecolocal_scripts() {
 	wp_enqueue_style( 'boostrap-icons', "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+    wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css' );
 
 	// Popper and Bootstrap JavaScript
 	wp_enqueue_script( 'bootstrap-script', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js', array('jquery'));
