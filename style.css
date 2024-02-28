@@ -86,11 +86,14 @@
 /****--------FOOTER---------*****/
 
 #colophon .container .col .img-fluid {
-   max-width: 10rem;
+   max-width: 15rem;
 }
 
 .site-footer__logo img.custom-logo {
-   width: 25%;
+   /* width: 40%; */
+   padding-top: 12.5%;
+   padding-bottom: 12.5%;
+   width: 7rem;
    height: auto;
 }
 
