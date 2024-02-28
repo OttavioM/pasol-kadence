@@ -53,18 +53,18 @@
 				?>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>Keep in Touch</h4>
-  	 			<?php
-					$instagram_link = create_links('<i class="bi bi-instagram"></i>', 'https://www.instagram.com/');
-					$facebook_link = create_links('<i class="bi bi-facebook"></i>', 'https://www.facebook.com/');
-					$tiktok_link = create_links('<i class="bi bi-tiktok"></i>', 'https://www.tiktok.com/');
-					
-					echo $instagram_link;
-					echo $facebook_link;
-					echo $tiktok_link;
-				?>
+  	 			<h4>Keep In Touch</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
   	 		</div>
   	 	</div>
+		<div class="footer-row-copyright" style="background-color:#f4eedfff">
+			<p> © <?php echo date('Y'); ?> PASOL SKINCARE PRODUCTS S.L. All right reserved.</p>
+		</div>
   	 </div>
 
 	</footer><!-- #colophon -->
