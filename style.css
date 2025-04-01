@@ -242,7 +242,7 @@
 } 
 
 .main-navigation a:hover{
-       background-color: #fcd673;
+       background-color: #FBECDC;
 } 
 
 /* mobile menu */
@@ -260,7 +260,7 @@
 }
 
 .mobile-navigation ul li.current-menu-item > a, .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap {
-   background-color: #fcd673;
+   background-color: #FBECDC;
 }
 
 /** HIDE THE DASHBOARD OF THE WOOCOMMERCE **/

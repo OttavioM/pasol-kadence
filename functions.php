@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles' ); // Remove the // fro
 
 // your code goes right below this
 
-function ecolocal_scripts() {
+function pasol_scripts() {
 	wp_enqueue_style( 'boostrap-icons', "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
     wp_enqueue_style( 'load-fa', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css' );
 
@@ -26,7 +26,7 @@ function ecolocal_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'ecolocal_scripts' );
+add_action( 'wp_enqueue_scripts', 'pasol_scripts' );
 
 
 add_action( 'init', 'custom_remove_footer_credit', 10 );
@@ -80,7 +80,7 @@ function ds_custom_wc_empty_cart_text()
         </div>
 		<div class="empty-cart">
 			<h2>Your Cart Is Currently Empty!</h2>
-			<p> Looks like you have not made your choice yet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			<p> Gift your skin rest, protection, youth and nourishment with the products made for you. </p>
 		</div>
 	</div>';
 }
