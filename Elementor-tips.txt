@@ -1,0 +1,14 @@
+Cn tabs:
+open when hover:
+create html code, above the tabs and:
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        jQuery(function($){
+            $('.hoverTabs .e-n-tab-title').mouseenter(function(){$(this).click();
+            });
+        });
+    });
+</script>
+
+then: for the tab uses the custom CSS and write hoverTabs, than it's implemented
