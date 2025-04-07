@@ -6,6 +6,7 @@ add_action('wp_enqueue_scripts', 'add_child_theme_style');
 
 function child_enqueue_styles() {
 	wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/style.css', array(), 100 );
+	wp_enqueue_style( 'child-theme', get_stylesheet_directory_uri() . '/megamenu.css', array(), 100 );
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles' ); // Remove the // from the beginning of this line if you want the child theme style.css file to load on the front end of your site.
@@ -216,6 +217,7 @@ add_shortcode( 'greet_user', 'greet_user' );
 function my_custom_scripts() {
     //DEFEATED
     // wp_enqueue_script( 'carousel_hommepage_products', get_stylesheet_directory_uri() . '/js/carousel_hommepage_products.js', array( 'jquery' ),'',true );
+    wp_enqueue_script( 'megamenu', get_stylesheet_directory_uri() . '/js/megamenu.js', array( 'jquery' ),'',true );
 }
 // add_action( 'wp_enqueue_scripts', 'my_custom_scripts' );
 
