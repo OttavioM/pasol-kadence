@@ -12,3 +12,43 @@ create html code, above the tabs and:
 </script>
 
 then: for the tab uses the custom CSS and write hoverTabs, than it's implemented
+-----------------------------------------------------
+Transparent Sticky Header Tutorial
+Instructions
+
+Watch the video tutorial and follow all the steps. Check out my example versions for a white menu or a dark menu.
+
+Make sure you Elementor Pro installed on your website.
+Make sure your logo doesn’t have any width settings
+Make sure your header isn’t higher as 90px
+Make sure your header has a minimum height of 90px
+Add a css class to your logo. Change the pixels to fit your logo design.
+The custom css code
+
+Put this part on your main section
+
+selector.elementor-sticky--effects{
+background-color: rgba(0,0,0,0.5)!important
+}
+selector{
+transition: background-color 1s ease !important;
+}
+selector.elementor-sticky--effects >.elementor-container{
+min-height: 70px;
+}
+selector > .elementor-container{
+transition: min-height 1s ease !important;
+}
+Put this part on your logo image (don’t forget to give the logo a class of “logo”)
+
+.logo img {
+max-width: 140px;
+height: auto;
+transition: all 0.5s ease;
+}
+.elementor-sticky--effects .logo img {
+max-width: 120px;
+height: auto;
+}
+Don’t just copy and paste the code on your header. It only works if you follow the steps in the tutorial. 
+----------------------------------------------------------------------------------
