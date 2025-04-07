@@ -11,6 +11,8 @@
 
 ?>
 
+<link rel="stylesheet" href="style.css" type="text/css">
+
 <div class="preview">
 	<img src="https://bato-web-agency.github.io/bato-shared/img/mega-menu-preview.jpg?v=1.0">
 </div>
