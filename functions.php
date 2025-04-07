@@ -35,16 +35,8 @@ function custom_remove_footer_credit () {
     add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
 }
 
-function custom_storefront_credit() {
 ?>
-<div class=”site-info”>
-© ECO LOCAL PRINT<?php echo get_bloginfo('name' ) . ' ' . get_the_date( 'Y' ); ?>
-</div><!– .site-info –>
-<?php
-}
-
-?>
-
+<!-- WOOCOMMERCE CART -->
 <?php
 add_filter( 'woocommerce_cart_item_removed_title', 'removed_from_cart_title', 12, 2);
 function removed_from_cart_title( $message, $cart_item ) {
@@ -220,6 +212,7 @@ function greet_user( $atts ) {
 }
 add_shortcode( 'greet_user', 'greet_user' );
 
+// ----------------------CUSTOM JAVASCRIPTS----------------
 function my_custom_scripts() {
     //DEFEATED
     // wp_enqueue_script( 'carousel_hommepage_products', get_stylesheet_directory_uri() . '/js/carousel_hommepage_products.js', array( 'jquery' ),'',true );
@@ -227,6 +220,7 @@ function my_custom_scripts() {
 // add_action( 'wp_enqueue_scripts', 'my_custom_scripts' );
 
 
+// CREATE LINKS IN LOOP FUNCTIONS
 function create_links() {
     $args = func_get_args(); // Get all the arguments passed to the function
     $links = ''; // Initialize the list of links with an empty string
