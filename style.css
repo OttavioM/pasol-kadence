@@ -83,29 +83,31 @@
     justify-content:center;
 }
 
-/****--------FOOTER---------*****/
+/****--------FOOTER COMMENTED UNTIL FOOTER.PHP or wp footer, not working with elementor---------*****/
+/* Elementor has its own footer */
 
-#colophon .container .col .img-fluid {
+/* #colophon .container .col .img-fluid {
    max-width: 15rem;
-}
+} */
 
-.site-footer__logo img.custom-logo {
+/* .site-footer__logo img.custom-logo { */
    /* width: 40%; */
-   padding-top: 12.5%;
+   /* padding-top: 12.5%;
    padding-bottom: 12.5%;
    width: 7rem;
    height: auto;
-}
+} */
 
-.footer-container{
+/* .footer-container{
 	max-width: 20000px;
 	margin:auto;
-}
-.footer-row{
-	display: flex;
+} */
+
+/* .footer-row{ */
+	/* display: flex; */
 	/* flex-wrap: wrap; */
-}
-.footer-col ul{
+/* } */
+/* .footer-col ul{
 	list-style: none;
 }
 
@@ -178,10 +180,10 @@
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-}
+} */
 
 /*responsive*/
-@media(max-width: 767px){
+/* @media(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
@@ -220,7 +222,7 @@
    .site-footer__mobile {
        display: none;
    }
-}
+} */
 
 
 /***MAIN MENU***/
