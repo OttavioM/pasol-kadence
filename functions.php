@@ -37,8 +37,8 @@ function custom_remove_footer_credit () {
 }
 
 ?>
-<!-- WOOCOMMERCE CART -->
 <?php
+// WOOCOMMERCE CART
 add_filter( 'woocommerce_cart_item_removed_title', 'removed_from_cart_title', 12, 2);
 function removed_from_cart_title( $message, $cart_item ) {
     $product = wc_get_product( $cart_item['product_id'] );
