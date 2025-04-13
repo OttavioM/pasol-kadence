@@ -290,3 +290,19 @@
 .kt-info-box_c68c70-19 .kt-blocks-info-box-link-wrap{
    height: 3rem;
 }
+
+/* CSS FOR UNDERLINE CLASS TO BE DISPLAYED COOL WITH ANIMATION HOVER TEXT */
+.text-underline{
+   text-decoration: none;
+   background-image: linear-gradient(rgb(99, 99, 101),rgb(0, 0, 0));
+   background-repeat: no-repeat;
+   background-position: bottom left;
+   background-size: 0% 1px;
+   transition: background-size 500ms ease-in-out;
+   background-position: 0s;
+}
+.text-underline:hover{
+   background-size: 100% 2px;
+   color:inherit;
+   background-position: bottom left;
+}
